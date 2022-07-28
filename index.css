@@ -46,8 +46,8 @@ section.container .form-container::after {
 section.container form {
   letter-spacing: 0.5px;
   color: #ffffff;
-  position: relative;
   z-index: 1;
+  position: relative;
   max-width: 450px;
   background-color: #ffffff3f;
   border: 2px solid #ffffff1a;
@@ -58,7 +58,6 @@ section.container form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 section.container form h3 {
