@@ -12,25 +12,26 @@
     <section class="container">
 
         <div class="form-container">
-            <form>
+            <form class="login-form">
                 <h3>Login Here</h3>
         
                 <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" placeholder="Email or Phone" id="username">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-email-login">
                 </div>
         
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" placeholder="Password" id="password">
+                    <input type="password" placeholder="Password" id="password" class="input-password-login">
                     <a href="forgot_password.html" class="forgot-pasword">forgot password?</a>
                 </div>
         
                 <button>Log In</button>
-                
+                <a href="register.html" class="forgot-pasword redirect">register</a>
             </form>
         </div>
     </section>
+    <script src="./login.js"></script>
 </body>
 </html>
 
